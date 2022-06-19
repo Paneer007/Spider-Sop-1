@@ -1,0 +1,109 @@
+:root {
+    --orange-peel: #ff9f1cff;
+    --mellow-apricot: #ffbf69ff;
+    --white: #ffffffff;
+    --light-cyan: #cbf3f0ff;
+    --tiffany-blue: #2ec4b6ff;
+}
+.keyDiv{
+    height: 60px;
+    width: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    background-color: beige;
+    border-radius: 25%;
+    font-size: x-large;
+    font-family: quicksand;
+}
+.keyRow{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center ;
+    gap: 4px;
+    margin:4px 0;
+}
+#GameDiv{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+body,html,#root{
+    background-color: antiquewhite;
+    margin: 0px;
+    padding:0px;
+    position: relative;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+}
+#WordP{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 16px;
+}
+.letterBox{
+    height: 40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: chocolate;
+    border-radius: 10px;
+    font-family: quicksand;
+    font-size: larger;
+}
+.titleBod{
+    background-color: var(--orange-peel);
+    position: relative;
+    top:0px;
+    text-align: center;
+    font-family: montserrat;
+}
+.DescBod{
+    padding:8px;
+    display: relative;
+}
+.RuleHeader{
+    font-family: Quicksand;
+    font-size: x-large;
+}
+.GameDesc{
+    font-size: large;
+    font-family: Roboto;
+}
+.gameButton{
+    font-size:large;
+    border-radius: 8px;
+    border: var(--tiffany-blue);
+    border-width:2px;
+    border-style: solid;
+    background:  lightcyan;
+    padding: 5px;
+    color:var(--tiffany-blue)
+}
+.gameButton:hover{
+    border:lightcyan solid 2px ;
+    background: var(--tiffany-blue);
+    color: lightcyan;
+}
+#ScoreDiv p{
+    font-family: quicksand;
+    font-weight: 500;
+}
+.GameOverText{
+    font-size: larger;
+    font-weight: 900;
+}
+.nature{
+    font-size: large;
+}
